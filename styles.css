@@ -5,6 +5,10 @@
     padding-top: 24px;    
     border-radius: 12px;
     background-color: rgb(207, 213, 245);
+
+    @media screen and (max-width:375px){
+        width: 350px;
+    }
 }
 
 .title{
